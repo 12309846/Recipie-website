@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yumm Recipe — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="top-inner">
+      <div class="brand">
+        <img src="images/yumm-recipe.jpg" alt="Yumm Recipe Logo" /> 
+      </div>
+      <nav class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="recipe.html">Recipes</a>
+        <a href="communities.html">Communities</a>
+        <a class="btn-sm" href="login.html">Login</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">Unleash Your Inner Chef</h1>
+        <p class="hero-sub">Discover simple & delightful recipes — from cozy soups to global flavors.</p>
+        <a class="btn btn-cta" href="recipe.html">Explore Recipes</a>
+      </div>
+      <div class="hero-visual">
+        <img src="images/hero-food.jpg" alt="hero food" />
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2 class="section-heading">Popular Recipes</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/tomato-soup.jpg" alt="Creamy Tomato Soup" />
+          <h3>Creamy Tomato Soup</h3>
+          <p class="card-meta">Warm, comforting & ready in 30 minutes</p>
+        </article>
+
+        <article class="card">
+          <img src="images/fried-rice.jpg" alt="Fried Rice" />
+          <h3>Fried Rice</h3>
+          <p class="card-meta">Quick, colorful & veggie-packed</p>
+        </article>
+
+        <article class="card">
+          <img src="images/noodles.jpg" alt="Noodles" />
+          <h3>Noodles</h3>
+          <p class="card-meta">Savory, slurpable noodle goodness</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section alt">
+      <h2 class="section-heading">Explore by Interest</h2>
+      <div class="explore-grid">
+        <div class="explore-card">
+          <img src="images/healthy-eating.jpg" alt="Healthy Eating" />
+          <div class="explore-content">
+            <h4>Healthy Eating</h4>
+            <p>Fresh ideas and balanced plates.</p>
+          </div>
+        </div>
+
+        <div class="explore-card">
+          <img src="images/quick-and-easy.jpg" alt="Quick & Easy" />
+          <div class="explore-content">
+            <h4>Quick & Easy</h4>
+            <p>Great recipes under 30 minutes.</p>
+          </div>
+        </div>
+
+        <div class="explore-card">
+          <img src="images/global-cuisine.jpg" alt="Global Cuisine" />
+          <div class="explore-content">
+            <h4>Global Cuisine</h4>
+            <p>Flavors from around the world.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container community-cta">
+      <h3>Join the Vibrant Community of Food Enthusiasts</h3>
+      <p class="muted">Share your cooking, learn new techniques, and get inspired.</p>
+      <a class="btn" href="#">Join Now</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Yumm Recipe — Made with ❤️</p>
+    </div>
+  </footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

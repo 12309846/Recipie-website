@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipes — Yumm Recipe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="top-inner">
+      <div class="brand">
+        <span class="brand-badge">Y</span>
+        <span class="brand-text">Yumm Recipe</span>
+      </div>
+      <nav class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="recipe.html">Recipes</a>
+        <a href="#">Communities</a>
+        <a class="btn-sm" href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container recipes-page">
+    <h1 class="page-title">Featured Recipes</h1>
+
+    <div class="recipes-three">
+      <article class="recipe-card">
+        <img src="images/tomato-soup.jpg" alt="Tomato Soup" />
+        <h3>Creamy Tomato Soup</h3>
+        <h4>Ingredients</h4>
+        <ul class="ingredients">
+          <li>10–12 medium tomatoes</li>
+          <li>4 cloves garlic</li>
+          <li>1 medium onion</li>
+          <li>1 cup cream</li>
+        </ul>
+        <a class="btn btn-sm" href="#">Full Recipe</a>
+      </article>
+
+      <article class="recipe-card">
+        <img src="images/fried-rice.jpg" alt="Fried Rice" />
+        <h3>Fried Rice</h3>
+        <h4>Ingredients</h4>
+        <ul class="ingredients">
+          <li>1 cup rice (cooked)</li>
+          <li>Carrot, beans, baby corn</li>
+          <li>Soy sauce & pepper</li>
+        </ul>
+        <a class="btn btn-sm" href="#">Full Recipe</a>
+      </article>
+
+      <article class="recipe-card">
+        <img src="images/noodles.jpg" alt="Noodles" />
+        <h3>Noodles</h3>
+        <h4>Ingredients</h4>
+        <ul class="ingredients">
+          <li>200g noodles</li>
+          <li>Veggies & garlic</li>
+          <li>Soy sauce & sesame oil</li>
+        </ul>
+        <a class="btn btn-sm" href="#">Full Recipe</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year2"></span> Yumm Recipe</p>
+    </div>
+  </footer>
+
+<script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
