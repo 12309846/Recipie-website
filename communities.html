@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Communities — Yumm Recipe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="top-inner">
+      <div class="brand">
+        <span class="brand-badge">Y</span>
+        <span class="brand-text">Yumm Recipe</span>
+      </div>
+      <nav class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="recipe.html">Recipes</a>
+        <a href="communities.html">Communities</a>
+        <a class="btn-sm" href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="page-title">Community Hub</h1>
+    <p class="muted">Share your recipes, join discussions, and connect with food lovers.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Home Cook Stories</h3>
+        <p class="card-meta">Share your cooking journey</p>
+      </div>
+      <div class="card">
+        <h3>Ask a Chef</h3>
+        <p class="card-meta">Get expert help & tips</p>
+      </div>
+      <div class="card">
+        <h3>Global Food Talks</h3>
+        <p class="card-meta">Discuss cuisines around the world</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Yumm Recipe</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
